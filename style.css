@@ -1,0 +1,204 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0px;
+}
+header {
+    margin: 37px 200px 50px 200px;
+}
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+header li a {
+    text-decoration: none;
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.sectiontop {
+    height: 500px;
+    margin: 80px 0px 50px 0px;
+    padding: 0px 200px 50px 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.half-width{
+    width: 45%;
+}
+.orange-highlight {
+    color: #FF8367;
+}    
+.half-width h1 {
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 25px;
+}
+.half-width p {
+    padding-bottom: 30px;
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.half-width a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16;
+    font-weight: medium;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(-45deg, tomato, lightsalmon);
+    padding: 15px 45px;
+    border-radius: 5px;
+}
+.half-width img{
+    width:100%;
+    height:auto;
+}
+.sectionmiddle {
+    height: 500px;
+    margin-top: 150px;
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    justify-content: space-around;
+} 
+.half-width h2 {
+    color: #363958;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+.exp {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 48px;
+    color: #363958;
+    margin-top: 150px;
+}
+.latest-works {
+    height: 420px;
+    padding: 50px 200px 100px 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.single-experience {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 19.74px;
+    width: 28%;
+    padding: 15px 15px 32px 15px;
+}
+.single-experience img {
+    width:100%;
+    height:auto;
+}
+.single-experience h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+    font-size: 16px;
+} 
+.single-experience p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: initial;
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 20px;
+} 
+.work {
+    width: 906px;
+    height: 225px;
+    display: flex;
+    margin: 150px 510px 0px 510px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(images/backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+.work h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    font-weight: normal;
+}
+.work a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16;
+    font-weight: medium;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, lightsalmon, tomato);
+    padding: 15px 45px;
+    border-radius: 5px;
+}
+.testimonial {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 500px;
+}
+.textbox {
+    margin:50px 50px;
+    height: 300px;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+.testimonial1  h2{
+    margin-top: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 50px;
+}   
+.textbox img {
+    width: 10%;
+    border-radius: 100px;
+}
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.chat {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    margin: 150px 0px 100px 0px;
+}
+footer h2 {
+    color: #6C6C6C;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+footer h1{
+    color: #363958;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.last-icons {
+    display: flex;
+    justify-content: center;
+}
+.last-icons img {
+    width: 2%;
+    padding-left: 25px;
+}
